@@ -3,6 +3,7 @@
 const resume = {
   name: "Alejandro De La Mora",
   title: "AI Solutions Architect | Salesforce Developer",
+  role: "AI Solutions Architect",
   location: "Canada",
   contact: [
     { label: "Phone", value: "+1 437 243 3693" },
@@ -94,7 +95,7 @@ export default function Page() {
     <main className="page">
       <div className="top-row">
         <div className="intro">
-          <p className="role-tag">Role</p>
+          <p className="role-tag">{resume.role}</p>
           <div className="name-block">
             <h1>{resume.name}</h1>
             <p className="title">{resume.title}</p>
